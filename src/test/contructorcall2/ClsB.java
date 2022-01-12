@@ -7,6 +7,7 @@ public class ClsB extends ClsA {
 	}
 	
 	public ClsB(int n) {
+		super(n);
 		System.out.println("ClsB(int n) 생성자 실행 : "+ n);
 	}
 }
